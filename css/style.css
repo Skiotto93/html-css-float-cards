@@ -11,10 +11,15 @@
 /*------------
     FONTS
 ------------*/
+header {
+    margin: auto;
+}
 
 body {
-    margin: auto;
     font-family: 'Fredoka', sans-serif;
+    margin: auto;
+    width: 1150px;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -28,8 +33,18 @@ header {
 }
 
 .box {
-    
+    color: white;
     height: 110px;
-    width: 360px;
+    width: calc(100% / 3)
     float: left;
+    background-color: #0f0e17;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 10px;
 }
