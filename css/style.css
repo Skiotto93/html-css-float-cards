@@ -11,15 +11,19 @@
 /*------------
     FONTS
 ------------*/
-header {
-    margin: auto;
-}
-
 body {
     font-family: 'Fredoka', sans-serif;
     margin: auto;
-    width: 1150px;
-    text-align: center;
+    width: 1150px;   
+}
+
+header {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.container {
+    padding-left: 10px;
 }
 
 .clearfix::after {
@@ -30,15 +34,14 @@ body {
 
 header {
     color: #E53170;
+    text-align: center;
 }
 
 .box {
     color: white;
-    height: 110px;
     width: 30%;
     float: left;
     background-color: #0f0e17;
-    padding: 10px;
     margin: 10px;
 }
 
@@ -46,9 +49,15 @@ img {
     height: 100px;
     width: 100px;
     float: left;
-    margin: 0 10px;
 }
 
 a {
     display: block;
+    color: #59b9e4;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 25px;
+    text-align: center;
 }
